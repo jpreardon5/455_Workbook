@@ -1,4 +1,4 @@
-project_memory
+
 
 UPDATE project_memory SET model_number = " " WHERE model_number = " ";
 UPDATE project_memory SET name = " " WHERE model_number = " ";
@@ -9,7 +9,7 @@ UPDATE project_memory SET size_per_stick_megabytes = " " WHERE model_number = " 
 UPDATE project_memory SET number_of_sticks = " " WHERE model_number = " ";
 UPDATE project_memory SET speed = " " WHERE model_number = " ";
 
-project_motherboard
+
 
 UPDATE project_motherboard SET model_number = " " WHERE model_number = " ";
 UPDATE project_motherboard SET name = " " WHERE model_number = " ";
@@ -40,7 +40,7 @@ UPDATE project_motherboard SET raid_support  = " " WHERE model_number = " ";
 UPDATE project_motherboard SET raid_modes = " " WHERE model_number = " ";   
 UPDATE project_motherboard SET intergrated_video = " " WHERE model_number = " ";   
 
-project_optical_drive
+
 
 UPDATE project_optical_drive SET model_number = " " WHERE model_number = " ";
 UPDATE project_optical_drive SET name = " " WHERE model_number = " ";
@@ -51,7 +51,7 @@ UPDATE project_optical_drive SET interface_type = " " WHERE model_number = " ";
 UPDATE project_optical_drive SET load_type = " " WHERE model_number = " ";
 
 
-project_psu
+
 
 UPDATE project_psu SET model_number = " " WHERE model_number = " ";
 UPDATE project_psu SET name  = " " WHERE model_number = " ";
@@ -65,7 +65,7 @@ UPDATE project_psu SET sata_power_connectors = " " WHERE model_number = " ";
 UPDATE project_psu SET molex_power_connectors = " " WHERE model_number = " ";
 UPDATE project_psu SET floppy_power_connectors = " " WHERE model_number = " ";
 
-project_user
+
 
 UPDATE project_user SET user_id = " " WHERE user_id = " ";
 UPDATE project_user SET username = " " WHERE user_id = " ";
@@ -75,7 +75,7 @@ UPDATE project_user SET email = " " WHERE user_id = " ";
 UPDATE project_user SET salt = " " WHERE user_id = " ";
 UPDATE project_user SET password = " " WHERE user_id = " ";
 
-project_displays
+
 UPDATE project_displays SET model_number = " " WHERE model_number = " ";
 UPDATE project_displays SET name = " " WHERE model_number = " ";
 UPDATE project_displays SET brand = " " WHERE model_number = " ";
@@ -89,7 +89,7 @@ UPDATE project_displays SET hdmi_ports = " " WHERE model_number = " ";
 UPDATE project_displays SET dvi_ports = " " WHERE model_number = " ";
 
 
-project_video_card
+
 
 UPDATE project_video_card SET model_number = " " WHERE model_number = " ";
 UPDATE project_video_card SET name = " " WHERE model_number = " ";
@@ -109,7 +109,7 @@ UPDATE project_video_card SET core_clock = " " WHERE model_number = " ";
 UPDATE project_video_card SET apis = " " WHERE model_number = " ";
 UPDATE project_video_card SET wattage = " " WHERE model_number = " ";
 
-project_cpu
+
 
 UPDATE project_cpu SET model_number = " " WHERE model_number = " ";
 UPDATE project_cpu SET name = " " WHERE model_number = " ";
@@ -121,7 +121,7 @@ UPDATE project_cpu SET speed = " " WHERE model_number = " ";
 UPDATE project_cpu SET cores = " " WHERE model_number = " ";
 UPDATE project_cpu SET wattage = " " WHERE model_number = " ";
 
-project_storage
+
 
 UPDATE project_storage SET model_number = " " WHERE model_number = " ";
 UPDATE project_storage SET name = " " WHERE model_number = " ";
@@ -132,7 +132,7 @@ UPDATE project_storage SET interface = " " WHERE model_number = " ";
 UPDATE project_storage SET form_factor = " " WHERE model_number = " ";
 UPDATE project_storage SET wattage = " " WHERE model_number = " ";
 
-project_case
+
 
 UPDATE project_case SET model_number = " " WHERE model_number = " ";
 UPDATE project_case SET form_factor = " " WHERE model_number = " ";

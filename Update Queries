@@ -76,75 +76,79 @@ UPDATE project_user SET salt = " " WHERE user_id = " ";
 UPDATE project_user SET password = " " WHERE user_id = " ";
 
 project_displays
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
-UPDATE project_displays SET = " " WHERE model_number = " ";
+UPDATE project_displays SET model_number = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET price = " " WHERE model_number = " ";
+UPDATE project_displays SET max_resolution = " " WHERE model_number = " ";
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET display_type = " " WHERE model_number = " ";
+UPDATE project_displays SET size = " " WHERE model_number = " ";
+UPDATE project_displays SET vga_ports = " " WHERE model_number = " ";
+UPDATE project_displays SET hdmi_ports = " " WHERE model_number = " ";
+UPDATE project_displays SET dvi_ports = " " WHERE model_number = " ";
 
 
 project_video_card
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
-UPDATE project_video_card SET = " " WHERE model_number = " ";
+
+UPDATE project_video_card SET model_number = " " WHERE model_number = " ";
+UPDATE project_video_card SET name = " " WHERE model_number = " ";
+UPDATE project_video_card SET brand = " " WHERE model_number = " ";
+UPDATE project_video_card SET price = " " WHERE model_number = " ";
+UPDATE project_video_card SET interface_type = " " WHERE model_number = " ";
+UPDATE project_video_card SET interface_speed = " " WHERE model_number = " ";
+UPDATE project_video_card SET monitor_supported = " " WHERE model_number = " ";
+UPDATE project_video_card SET vga_ports = " " WHERE model_number = " ";
+UPDATE project_video_card SET dvi_ports = " " WHERE model_number = " ";
+UPDATE project_video_card SET max_resolution  = " " WHERE model_number = " ";
+UPDATE project_video_card SET profile = " " WHERE model_number = " ";
+UPDATE project_video_card SET memory_type = " " WHERE model_number = " ";
+UPDATE project_video_card SET memory_interface = " " WHERE model_number = " ";
+UPDATE project_video_card SET memory_size = " " WHERE model_number = " ";
+UPDATE project_video_card SET core_clock = " " WHERE model_number = " ";
+UPDATE project_video_card SET apis = " " WHERE model_number = " ";
+UPDATE project_video_card SET wattage = " " WHERE model_number = " ";
 
 project_cpu
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
-UPDATE project_cpu SET = " " WHERE model_number = " ";
 
+UPDATE project_cpu SET model_number = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET price = " " WHERE model_number = " ";
+UPDATE project_cpu SET cpu_type = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+UPDATE project_cpu SET speed = " " WHERE model_number = " ";
+UPDATE project_cpu SET cores = " " WHERE model_number = " ";
+UPDATE project_cpu SET wattage = " " WHERE model_number = " ";
 
 project_storage
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
-UPDATE project_storage SET = " " WHERE model_number = " ";
+
+UPDATE project_storage SET model_number = " " WHERE model_number = " ";
+UPDATE project_storage SET name = " " WHERE model_number = " ";
+UPDATE project_storage SET brand = " " WHERE model_number = " ";
+UPDATE project_storage SET price = " " WHERE model_number = " ";
+UPDATE project_storage SET capacity = " " WHERE model_number = " ";
+UPDATE project_storage SET interface = " " WHERE model_number = " ";
+UPDATE project_storage SET form_factor = " " WHERE model_number = " ";
+UPDATE project_storage SET wattage = " " WHERE model_number = " ";
 
 project_case
-UPDATE project_case SET = " " WHERE model_number = " ";
-UPDATE project_case SET = " " WHERE model_number = " ";
-UPDATE project_case SET = " " WHERE model_number = " ";
-UPDATE project_case SET = " " WHERE model_number = " ";
-UPDATE project_case SET = " " WHERE model_number = " ";
-UPDATE project_case SET = " " WHERE model_number = " ";
+
+UPDATE project_case SET model_number = " " WHERE model_number = " ";
+UPDATE project_case SET form_factor = " " WHERE model_number = " ";
+UPDATE project_case SET brand = " " WHERE model_number = " ";
+UPDATE project_case SET price = " " WHERE model_number = " ";
+UPDATE project_case SET material = " " WHERE model_number = " ";
+UPDATE project_case SET 5.25_drive_bays = " " WHERE model_number = " ";
+UPDATE project_case SET 3.5_drive_bays = " " WHERE model_number = " ";
 
 project_index
 
 
 project_cart
+
+UPDATE project_cart SET quantity = " " WHERE user_id = " ";
+
 
 
 

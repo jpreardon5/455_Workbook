@@ -94,15 +94,51 @@ UPDATE project_video_card SET = " " WHERE model_number = " ";
 UPDATE project_video_card SET = " " WHERE model_number = " ";
 UPDATE project_video_card SET = " " WHERE model_number = " ";
 UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
+UPDATE project_video_card SET = " " WHERE model_number = " ";
 
 project_cpu
-
 UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+UPDATE project_cpu SET = " " WHERE model_number = " ";
+
 
 project_storage
 UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
+UPDATE project_storage SET = " " WHERE model_number = " ";
 
 project_case
+UPDATE project_case SET = " " WHERE model_number = " ";
+UPDATE project_case SET = " " WHERE model_number = " ";
+UPDATE project_case SET = " " WHERE model_number = " ";
+UPDATE project_case SET = " " WHERE model_number = " ";
+UPDATE project_case SET = " " WHERE model_number = " ";
 UPDATE project_case SET = " " WHERE model_number = " ";
 
 project_index

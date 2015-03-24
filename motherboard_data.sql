@@ -48,8 +48,15 @@ insert into project_memory values
 
 insert into project_case values
 ('case0', 'uniquename0', 'uniquebrand0', 149.99, 'aluminum', 'ATX', 2, 1),
-('case0', 'uniquename0', 'uniquebrand0', 149.99, 'aluminum', 'ATX', 2, 1),
-('case0', 'uniquename0', 'uniquebrand0', 149.99, 'aluminum', 'ATX', 2, 1),
-('case0', 'uniquename0', 'uniquebrand0', 149.99, 'aluminum', 'ATX', 2, 1),
-('case0', 'uniquename0', 'uniquebrand0', 149.99, 'aluminum', 'ATX', 2, 1),
-('case0', 'uniquename0', 'uniquebrand0', 149.99, 'aluminum', 'ATX', 2, 1),
+('case1', 'uniquename1', 'uniquebrand1', 149.99, 'aluminum', 'MATX', 2, 1),
+('case2', 'uniquename2', 'uniquebrand2', 149.99, 'aluminum', 'ATX', 2, 1),
+('case3', 'uniquename3', 'uniquebrand3', 149.99, 'aluminum', 'ATX', 2, 1),
+('case4', 'uniquename4', 'uniquebrand4', 149.99, 'aluminum', 'MATX', 2, 1),
+('case5', 'uniquename5', 'uniquebrand5', 149.99, 'aluminum', 'ATX', 2, 1),
+('case6', 'uniquename6', 'uniquebrand6', 149.99, 'aluminum', 'ATX', 2, 1),
+('case7', 'uniquename7', 'uniquebrand7', 149.99, 'aluminum', 'MATX', 2, 1),
+('case8', 'uniquename8', 'uniquebrand8', 149.99, 'aluminum', 'ATX', 2, 1),
+('case9', 'uniquename9', 'uniquebrand9', 149.99, 'aluminum', 'ATX', 2, 1);
+
+insert into project_cpu values
+('cpu0', 'uniquename0', 'uniquebrand0', 499.99, 'desktop', 'AM3+', 

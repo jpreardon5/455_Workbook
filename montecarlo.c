@@ -13,7 +13,7 @@ float randNumGen(){
    return unit_random;
 }
 
-void *doCalcs(void *threadid)
+void *calculation(void *threadid)
 {
    long longTid;
    longTid = (long)threadid;
@@ -65,7 +65,7 @@ void *doCalcs(void *threadid)
 int main(int argc, char *argv[])
 {
    pthread_t threads[NUMBER_OF_THREADS];
-   int rc;
+   int rcount;
    long t;
    void *status;
    float tot_in=0;
@@ -73,9 +73,9 @@ int main(int argc, char *argv[])
    
    
    for(t=0;t<NUMBER_OF_THREADS;t++){
-     rc = pthread_create(&threads[t], NULL, doCalcs, (void *)t);
-     if (rc){
-       printf("ERROR; return code from pthread_create() is %d\n", rc);
+     rcount = pthread_create(&threads[t], NULL, calculation, (void *)t);
+     if (rcount){
+       printf("ERROR; return code from pthread_create() is %d\n", rcount);
        exit(-1);
        }
      }

@@ -3,3 +3,108 @@
 struct process
   {
   char na[20];
+  int at,bt,ft,tat,rem;
+  float ntat;
+  }
+  Q[5],temp;
+  int rr[20],q,x,k;
+  
+  main()
+  {
+    int f,r,n,i,j, tt=0,qt,t,flag,wt=0;
+    float awt=0, antat=0, atat=0;
+    clrscr();
+    printf("Enter the number of Processes:");
+    scanf("%d",%n);
+    for(r=0;r<n;i++)
+    {
+      printf("Enter Process Number, Arrival Time and CPU Burst Time: \n");
+      scanf("%s%d%d",Q[r].na,&Q[r].at,&Q[r].bt);
+    }
+    printf("Enter Time Quantum: \n");
+    scanf("%d",&qt);
+    for(i=0;i<n;i++)
+    {
+      for(j=i+1;j<n;j++)
+      {
+        if(Q[i].at>Q[j].at)
+        {
+          temp=Q[i];
+          Q[i]=Q[j];
+          Q[j]=temp;
+        }
+      }
+    }
+    for(i=0;i<n;i++)
+    {
+      Q[i].rem=Q[i].bt;
+      Q[i].ft=0;
+    }
+    tt=0;
+    q=0;
+    rr[q]=0;
+    do
+    {
+      for(j=0;j<n;j++)
+      if(tt>=Q[j].at)
+      {
+        x=0;
+        for(k=0;k<=q;k++)
+        if(rr[k]==j)
+        x++;
+        if(x==0)
+        {
+          q++;
+          rr[q]=j;
+        }
+      }
+      if(q==0)
+      i=0;
+      if(Q[i].rem==0)
+      i++;
+      if(i<q)
+      {
+        if(Q[i].rem>0)
+        {
+          if(Q[i].rem<qt)
+          {
+            tt+=Q[i].rem;
+            Q[i].rem=0;
+          }
+          else
+          {
+            tt+=qt;
+            Q[i].rem-=qt;
+          }
+          Q[i].ft=tt;
+        }
+        i++;
+      }
+      flag=0;
+      for(j=0;j<n;j++)
+      if(Q[j].rem>0)
+      flag++;
+    }
+    while(flag!=0);
+    clrscr();
+    printf("\n\n\t\tROUND ROBIN SCHEDULING");
+    printf("\n*****************************");
+    printf("\nProcesses Arrival Time CPU Burst Time Finish Time TAT WT nTAT");
+    for(f=0;f<n;f++)
+    {
+      wt=Q[f]ft-Q[f].bt-Q[f].at;
+      Q[f].tat=Q[f].ft-Q[f].at;
+      Q[f].ntat=(float)Q[f].tat/Q[f].bt;
+      antat+=Q[f].tat;
+      awt+=wt;
+      printf("\n\t%s\t%d\t\t%d\t%d\t%d\t%d %f",
+      Q[f].na,Q[f].at,Q[f].bt,Q[f].ft,Q[f].tat,wt,Q[f].ntat);
+    }
+    antat/=n;
+    atat/=n;
+    awt/=n;
+    printf("\nAverage TAT is %f", atat);
+    printf("\nAverage normalized TAT is %f", antat);
+  getch();
+  }
+  

@@ -21,3 +21,28 @@ UPDATE project_case SET brand = "LogiCase" WHERE model_number = "case8 ";
 UPDATE project_case SET brand = "Supermicro " WHERE model_number = "case9 ";
 
 
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = " " WHERE model_number = " ";
+
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = " " WHERE model_number = " ";
+UPDATE project_cpu SET price = " " WHERE model_number = " ";
+UPDATE project_cpu SET cpu_type = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+UPDATE project_cpu SET speed = " " WHERE model_number = " ";
+UPDATE project_cpu SET cores = " " WHERE model_number = " ";
+UPDATE project_cpu SET wattage = " " WHERE model_number = " ";
+
+

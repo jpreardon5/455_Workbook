@@ -44,11 +44,12 @@ UPDATE project_cpu SET brand = "Intel" WHERE model_number = "cpu8 ";
 UPDATE project_cpu SET brand = "AMD" WHERE model_number = "cpu9 ";
 
 
-UPDATE project_cpu SET socket = " " WHERE model_number = " ";
-UPDATE project_cpu SET socket = " " WHERE model_number = " ";
-UPDATE project_cpu SET socket = " " WHERE model_number = " ";
-UPDATE project_cpu SET socket = " " WHERE model_number = " ";
-UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = "FM2" WHERE model_number = "cpu2";
+UPDATE project_cpu SET socket = "FM2"  WHERE model_number = "cpu4 ";
+UPDATE project_cpu SET socket = "AM1" WHERE model_number = "cpu6 ";
+UPDATE project_cpu SET socket = "FM2+ " WHERE model_number = "cpu8 ";
+UPDATE project_cpu SET socket = "LGA1150" WHERE model_number = "cpu9 ";
+
 
 
 

@@ -66,56 +66,55 @@ UPDATE project_cpu SET socket = "FM2+ " WHERE model_number = "cpu8 ";
 UPDATE project_cpu SET socket = "LGA1150" WHERE model_number = "cpu9 ";
 
 
-UPDATE project_displays SET name = " " WHERE model_number = "displays0";
-UPDATE project_displays SET name = " " WHERE model_number = "displays1";
-UPDATE project_displays SET name = " " WHERE model_number = "displays2";
-UPDATE project_displays SET name = " " WHERE model_number = "displays3";
-UPDATE project_displays SET name = " " WHERE model_number = "displays4";
-UPDATE project_displays SET name = " " WHERE model_number = "displays5";
-UPDATE project_displays SET name = " " WHERE model_number = "displays6";
-UPDATE project_displays SET name = " " WHERE model_number = "displays7";
-UPDATE project_displays SET name = " " WHERE model_number = "displays8";
-UPDATE project_displays SET name = " " WHERE model_number = "displays9";
+UPDATE project_displays SET name = "S27C5" WHERE model_number = "displays0";
+UPDATE project_displays SET name = "S2240" WHERE model_number = "displays1";
+UPDATE project_displays SET name = "P232W" WHERE model_number = "displays2";
+UPDATE project_displays SET name = "29EB9" WHERE model_number = "displays3";
+UPDATE project_displays SET name = "S27C39 " WHERE model_number = "displays4";
+UPDATE project_displays SET name = "VS24H" WHERE model_number = "displays5";
+UPDATE project_displays SET name = "34UM94" WHERE model_number = "displays6";
+UPDATE project_displays SET name = "MX27H" WHERE model_number = "displays7";
+UPDATE project_displays SET name = "S32D850T" WHERE model_number = "displays8";
+UPDATE project_displays SET name = "EA273W" WHERE model_number = "displays9";
 
-UPDATE project_displays SET brand = " " WHERE model_number = "displays0";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays1";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays2";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays3";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays4";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays5";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays6";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays7";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays8";
-UPDATE project_displays SET brand = " " WHERE model_number = "displays9";
+UPDATE project_displays SET brand = "Samsung" WHERE model_number = "displays0";
+UPDATE project_displays SET brand = "Dell " WHERE model_number = "displays1";
+UPDATE project_displays SET brand = "NEC " WHERE model_number = "displays2";
+UPDATE project_displays SET brand = "LG" WHERE model_number = "displays3";
+UPDATE project_displays SET brand = "Samsung" WHERE model_number = "displays4";
+UPDATE project_displays SET brand = "Asus" WHERE model_number = "displays5";
+UPDATE project_displays SET brand = "LG" WHERE model_number = "displays6";
+UPDATE project_displays SET brand = "Asus" WHERE model_number = "displays7";
+UPDATE project_displays SET brand = "Samsung" WHERE model_number = "displays8";
+UPDATE project_displays SET brand = "NEC" WHERE model_number = "displays9";
 
-UPDATE project_displays SET ref_rate = " " WHERE model_number = "displays0";
-UPDATE project_displays SET ref_rate = " " WHERE model_number = "displays2";
-UPDATE project_displays SET ref_rate = " " WHERE model_number = "displays4";
-UPDATE project_displays SET ref_rate = " " WHERE model_number = "displays6";
-UPDATE project_displays SET ref_rate = " " WHERE model_number = "displays8";
+UPDATE project_displays SET ref_rate = "60" WHERE model_number = "displays0";
+UPDATE project_displays SET ref_rate = "60" WHERE model_number = "displays2";
+UPDATE project_displays SET ref_rate = "60" WHERE model_number = "displays4";
+UPDATE project_displays SET ref_rate = "60" WHERE model_number = "displays6";
+UPDATE project_displays SET ref_rate = "60" WHERE model_number = "displays8";
 
-UPDATE project_displays SET size = " " WHERE model_number = "displays0";
-UPDATE project_displays SET size = " " WHERE model_number = "displays2";
-UPDATE project_displays SET size = " " WHERE model_number = "displays3";
-UPDATE project_displays SET size = " " WHERE model_number = "displays4";
-UPDATE project_displays SET size = " " WHERE model_number = "displays6";
-UPDATE project_displays SET size = " " WHERE model_number = "displays8";
+UPDATE project_displays SET size = "27 inch" WHERE model_number = "displays0";
+UPDATE project_displays SET size = "22 inch" WHERE model_number = "displays1";
+UPDATE project_displays SET size = "22 inch" WHERE model_number = "displays2";
+UPDATE project_displays SET size = "29 inch" WHERE model_number = "displays3";
+UPDATE project_displays SET size = "27 inch" WHERE model_number = "displays4";
+UPDATE project_displays SET size = "24 inch" WHERE model_number = "displays5";
+UPDATE project_displays SET size = "34 inch" WHERE model_number = "displays6";
+UPDATE project_displays SET size = "27 inch" WHERE model_number = "displays7";
+UPDATE project_displays SET size = "32 inch" WHERE model_number = "displays8";
+UPDATE project_displays SET size = "27 inch" WHERE model_number = "displays9";
 
-UPDATE project_displays SET vga_ports = " " WHERE model_number = "displays0";
-UPDATE project_displays SET vga_ports = " " WHERE model_number = "displays2";
-UPDATE project_displays SET vga_ports = " " WHERE model_number = "displays4";
-UPDATE project_displays SET vga_ports = " " WHERE model_number = "displays6";
-UPDATE project_displays SET vga_ports = " " WHERE model_number = "displays8";
 
-UPDATE project_displays SET hdmi_ports = " " WHERE model_number = "displays0";
-UPDATE project_displays SET hdmi_ports = " " WHERE model_number = "displays2";
-UPDATE project_displays SET hdmi_ports = " " WHERE model_number = "displays4";
-UPDATE project_displays SET hdmi_ports = " " WHERE model_number = "displays6";
 
-UPDATE project_displays SET dvi_ports = " " WHERE model_number = "displays2";
-UPDATE project_displays SET dvi_ports = " " WHERE model_number = "displays4";
-UPDATE project_displays SET dvi_ports = " " WHERE model_number = "displays6";
-UPDATE project_displays SET dvi_ports = " " WHERE model_number = "displays8";
+
+
+UPDATE project_displays SET price = "407.99" WHERE model_number = "displays0";
+UPDATE project_displays SET price = "231.99" WHERE model_number = "displays2";
+UPDATE project_displays SET price = "219.99" WHERE model_number = "displays4";
+UPDATE project_displays SET price = "877.99" WHERE model_number = "displays6";
+UPDATE project_displays SET price = "599.99" WHERE model_number = "displays8";
+UPDATE project_displays SET price = "401.99" WHERE model_number = "displays9";
 
 
 UPDATE project_memory SET name = "Radeon R5" WHERE model_number = "memory0";
@@ -204,27 +203,36 @@ UPDATE project_optical_drive SET load_type = " " WHERE model_number = " ";
 
 UPDATE project_psu SET model_number = " " WHERE model_number = " ";
 
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
-UPDATE project_psu SET name = " " WHERE model_number = " ";
+UPDATE project_psu SET name = "HX850i" WHERE model_number = "psu0";
+UPDATE project_psu SET name = "NT-3B" WHERE model_number = "psu1";
+UPDATE project_psu SET name = "AX760i" WHERE model_number = "psu2";
+UPDATE project_psu SET name = "900489" WHERE model_number = "psu3";
+UPDATE project_psu SET name = "CS850" WHERE model_number = "psu4";
+UPDATE project_psu SET name = "Photon" WHERE model_number = "psu5";
+UPDATE project_psu SET name = "ZPG-1000" WHERE model_number = "psu6";
+UPDATE project_psu SET name = "Bronze" WHERE model_number = "psu7";
+UPDATE project_psu SET name = "Hercules" WHERE model_number = "psu8";
+UPDATE project_psu SET name = "Snow Silent" WHERE model_number = "psu9";
 
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET brand = " " WHERE model_number = " ";
-UPDATE project_psu SET price = " " WHERE model_number = " ";
+UPDATE project_psu SET brand = "Corsair" WHERE model_number = "psu0";
+UPDATE project_psu SET brand = "Fractal Design" WHERE model_number = "psu1";
+UPDATE project_psu SET brand = "Corsair" WHERE model_number = "psu2";
+UPDATE project_psu SET brand = "VisionTek" WHERE model_number = "psu3";
+UPDATE project_psu SET brand = "Corsair" WHERE model_number = "psu4";
+UPDATE project_psu SET brand = "Rosewill" WHERE model_number = "psu5";
+UPDATE project_psu SET brand = "CoolMax " WHERE model_number = "psu6";
+UPDATE project_psu SET brand = "SeaSonic" WHERE model_number = "psu7";
+UPDATE project_psu SET brand = "Rosewill" WHERE model_number = "psu8";
+UPDATE project_psu SET brand = "SeaSonic" WHERE model_number = "psu9";
+
+UPDATE project_psu SET price = "99.99" WHERE model_number = "psu0";
+UPDATE project_psu SET price = "184.99" WHERE model_number = "psu2";
+UPDATE project_psu SET price = "121.98" WHERE model_number = "psu4";
+UPDATE project_psu SET price = "199.99" WHERE model_number = "psu6";
+UPDATE project_psu SET price = "269.99" WHERE model_number = "psu8";
+UPDATE project_psu SET price = "219.99" WHERE model_number = "psu9";
+
+
 UPDATE project_psu SET wattage = " " WHERE model_number = " ";
 UPDATE project_psu SET modular = " " WHERE model_number = " ";
 UPDATE project_psu SET primary_mobo_pin = " " WHERE model_number = " ";
@@ -232,6 +240,42 @@ UPDATE project_psu SET secondary_mobo_pin = " " WHERE model_number = " ";
 UPDATE project_psu SET sata_power_connectors = " " WHERE model_number = " ";
 UPDATE project_psu SET molex_power_connectors = " " WHERE model_number = " ";
 UPDATE project_psu SET floppy_power_connectors = " " WHERE model_number = " ";
+
+UPDATE project_storage SET model_number = " " WHERE model_number = " ";
+
+UPDATE project_storage SET name = "RADEON R7SSD" WHERE model_number = "storage0";
+UPDATE project_storage SET name = "F128" WHERE model_number = "storage1";
+UPDATE project_storage SET name = "0C19451" WHERE model_number = "storage2";
+UPDATE project_storage SET name = "CT120BX" WHERE model_number = "storage3";
+UPDATE project_storage SET name = "F480" WHERE model_number = "storage4";
+UPDATE project_storage SET name = "M6M" WHERE model_number = "storage5";
+UPDATE project_storage SET name = "900781" WHERE model_number = "storage6";
+UPDATE project_storage SET name = "PX-64M3" WHERE model_number = "storage7";
+UPDATE project_storage SET name = "MG03A" WHERE model_number = "storage8";
+UPDATE project_storage SET name = "HyperX 3K" WHERE model_number = "storage9";
+
+UPDATE project_storage SET brand = "AMD" WHERE model_number = "storage0";
+UPDATE project_storage SET brand = "Corsair" WHERE model_number = "storage1";
+UPDATE project_storage SET brand = "Lenovo" WHERE model_number = "storage2";
+UPDATE project_storage SET brand = "Crucial" WHERE model_number = "storage3";
+UPDATE project_storage SET brand = "Corsair" WHERE model_number = "storage4";
+UPDATE project_storage SET brand = "Plextor" WHERE model_number = "storage5";
+UPDATE project_storage SET brand = "VisionTek" WHERE model_number = "storage6";
+UPDATE project_storage SET brand = "Plextor" WHERE model_number = "storage7";
+UPDATE project_storage SET brand = "Toshiba" WHERE model_number = "storage8";
+UPDATE project_storage SET brand = "Kingston" WHERE model_number = "storage9";
+
+UPDATE project_storage SET price = "114.99" WHERE model_number = "storage0";
+UPDATE project_storage SET price = "190.99" WHERE model_number = "storage2";
+UPDATE project_storage SET price = "299.99" WHERE model_number = "storage4";
+UPDATE project_storage SET price = "467.48" WHERE model_number = "storage6";
+UPDATE project_storage SET price = "234.99" WHERE model_number = "storage8";
+UPDATE project_storage SET price = "279.99" WHERE model_number = "storage9";
+
+UPDATE project_storage SET capacity = " " WHERE model_number = " ";
+UPDATE project_storage SET interface = " " WHERE model_number = " ";
+UPDATE project_storage SET form_factor = " " WHERE model_number = " ";
+UPDATE project_storage SET wattage = " " WHERE model_number = " ";
 
 
 

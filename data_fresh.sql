@@ -21,28 +21,34 @@ UPDATE project_case SET brand = "LogiCase" WHERE model_number = "case8 ";
 UPDATE project_case SET brand = "Supermicro " WHERE model_number = "case9 ";
 
 
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
-UPDATE project_cpu SET name = " " WHERE model_number = " ";
+UPDATE project_cpu SET name = "FX-6300" WHERE model_number = "cpu0 ";
+UPDATE project_cpu SET name = "i7-4790" WHERE model_number = "cpu1 ";
+UPDATE project_cpu SET name = "i7-5960" WHERE model_number = "cpu2 ";
+UPDATE project_cpu SET name = "FX-8350" WHERE model_number = "cpu3 ";
+UPDATE project_cpu SET name = "i5-4590" WHERE model_number = "cpu4 ";
+UPDATE project_cpu SET name = "FX-8320" WHERE model_number = "cpu5 ";
+UPDATE project_cpu SET name = "FX-4350" WHERE model_number = "cpu6 ";
+UPDATE project_cpu SET name = "Corei7-4130" WHERE model_number = "cpu7 ";
+UPDATE project_cpu SET name = "XeonE5-2699" WHERE model_number = "cpu8 ";
+UPDATE project_cpu SET name = "A8-7600" WHERE model_number = "cpu9 ";
 
-UPDATE project_cpu SET brand = " " WHERE model_number = " ";
-UPDATE project_cpu SET brand = " " WHERE model_number = " ";
-UPDATE project_cpu SET brand = " " WHERE model_number = " ";
-UPDATE project_cpu SET brand = " " WHERE model_number = " ";
-UPDATE project_cpu SET brand = " " WHERE model_number = " ";
-UPDATE project_cpu SET brand = " " WHERE model_number = " ";
-UPDATE project_cpu SET price = " " WHERE model_number = " ";
-UPDATE project_cpu SET cpu_type = " " WHERE model_number = " ";
+UPDATE project_cpu SET brand = "AMD" WHERE model_number = "cpu0 ";
+UPDATE project_cpu SET brand = "Intel" WHERE model_number = "cpu1 ";
+UPDATE project_cpu SET brand = "Intel" WHERE model_number = "cpu2 ";
+UPDATE project_cpu SET brand = "AMD" WHERE model_number = "cpu3 ";
+UPDATE project_cpu SET brand = "Intel" WHERE model_number = "cpu4 ";
+UPDATE project_cpu SET brand = "AMD" WHERE model_number = "cpu5 ";
+UPDATE project_cpu SET brand = "AMD" WHERE model_number = "cpu6 ";
+UPDATE project_cpu SET brand = "Intel" WHERE model_number = "cpu7 ";
+UPDATE project_cpu SET brand = "Intel" WHERE model_number = "cpu8 ";
+UPDATE project_cpu SET brand = "AMD" WHERE model_number = "cpu9 ";
+
+
 UPDATE project_cpu SET socket = " " WHERE model_number = " ";
-UPDATE project_cpu SET speed = " " WHERE model_number = " ";
-UPDATE project_cpu SET cores = " " WHERE model_number = " ";
-UPDATE project_cpu SET wattage = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+UPDATE project_cpu SET socket = " " WHERE model_number = " ";
+
 
 

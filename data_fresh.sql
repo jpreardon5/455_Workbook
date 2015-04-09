@@ -51,5 +51,45 @@ UPDATE project_cpu SET socket = "FM2+ " WHERE model_number = "cpu8 ";
 UPDATE project_cpu SET socket = "LGA1150" WHERE model_number = "cpu9 ";
 
 
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+UPDATE project_displays SET name = " " WHERE model_number = " ";
+
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+UPDATE project_displays SET brand = " " WHERE model_number = " ";
+
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET ref_rate = " " WHERE model_number = " ";
+UPDATE project_displays SET price = " " WHERE model_number = " ";
+UPDATE project_displays SET max_resolution = " " WHERE model_number = " ";
+
+UPDATE project_displays SET display_type = " " WHERE model_number = " ";
+UPDATE project_displays SET size = " " WHERE model_number = " ";
+UPDATE project_displays SET vga_ports = " " WHERE model_number = " ";
+UPDATE project_displays SET hdmi_ports = " " WHERE model_number = " ";
+UPDATE project_displays SET dvi_ports = " " WHERE model_number = " ";
+
+
 
 

@@ -10,3 +10,13 @@ create table project_user (
       password char (60) not null,
       unique key (email)
       );
+      
+      
+create table project_cart(
+        username varchar(50) not null,
+        foreign key(username) references project_user(username),
+        cart_index int(40) not null,
+        foreign key(cart_index) references project_index(this_index),
+        quantity int(40) not null # CHECK > TRIGGER
+        );
+
